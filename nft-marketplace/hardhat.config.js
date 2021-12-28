@@ -1,5 +1,6 @@
 require("@nomiclabs/hardhat-waffle");
-
+const fs = require("fs");
+const privateKey = fs.readFileSync(".secret").toString();
 
 module.exports = {
   networks: {
@@ -7,9 +8,13 @@ module.exports = {
       chainId: 1337
     },
     mumbai: {
-      url: `https://goerli.infura.io/v3/${process.env.projectId}`
+      url: `https://goerli.infura.io/v3/${process.env.projectId}`,
+      accounts: [privateKey]
     },
-    mainnet: {}
+    mainnet: {
+      url: `https://mainnet.infura.io/v3/${process.env.projectId}`,
+      accounts: [privateKey]
+    }
   },
   solidity: "0.8.4",
 };
