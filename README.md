@@ -1,0 +1,37 @@
+A simple NFT marketplace
+
+This is a simple NFT marketplace built on the Polygon blockchain. This marketplace allows for basic NFT transactions through metamask accounts such as listing NFTs, Buying NFTs, and displaying owned/created NFTs. The marketplace uses a set listing price for each NFT and then the price of the NFT is chosen by the user in ETH.
+
+The marketplace can be used locally through hardhat by with test accounts and deploying the smart contracts to display the functionality of simple NFT transactions.
+
+**Local Setup**
+
+1. Clone the project locally and install dependencies
+
+``` 
+git clone
+
+cd nft-marketplace
+
+#install using npm or yarn
+```
+
+2. Setup hardhat
+
+```
+npx hardhat node
+```
+
+3. Deploy contracts and obtain contract addresses
+
+```
+npx hardhat run --network localhost scripts/deploy.js
+
+copy address for 'nftAddress' and 'nftMarketAddress' to /config.js
+```
+
+4. Start app
+
+```
+npm run
+```
