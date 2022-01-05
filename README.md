@@ -1,6 +1,6 @@
 A simple NFT marketplace
 
-This is a simple NFT marketplace built on the Polygon blockchain. This marketplace allows for basic NFT transactions through metamask accounts such as listing NFTs, Buying NFTs, and displaying owned/created NFTs. The marketplace uses a set listing price for each NFT and then the price of the NFT is chosen by the user in ETH.
+This is a simple NFT marketplace built on the Polygon blockchain. This marketplace allows for basic NFT transactions through metamask accounts such as listing NFTs, buying NFTs, and displaying owned/created NFTs. The marketplace uses a set listing price for each NFT and then the price of the NFT is chosen by the user in ETH.
 
 The marketplace can be used locally through hardhat by with test accounts and deploying the smart contracts to display the functionality of simple NFT transactions.
 
