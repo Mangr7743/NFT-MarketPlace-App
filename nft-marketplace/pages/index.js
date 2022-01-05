@@ -30,7 +30,7 @@ function Home() {
       let price = ethers.utils.formatUnits(i.price.toString(), 'ether')
       let item = {
         price,
-        tokenId: i.tokenId.toNumber(),
+        itemId: i.tokenId.toNumber(),
         seller: i.seller,
         owner: i.owner,
         image: meta.data.image,
@@ -51,9 +51,9 @@ function Home() {
     const signer = provider.getSigner()
     const contract = new ethers.Contract(nftmarketaddress, Market.abi, signer)
 
-    const price = ethers.utils.parseUnits(nft.price.toString, 'ether')
+    const price = ethers.utils.parseUnits(nft.price.toString(), 'ether')
 
-    const transaction = await contract.createMarketSale(nftaddress, nft.tokenId, {
+    const transaction = await contract.createMarketSale(nftaddress, nft.itemId, {
       value: price
     })
     await transaction.wait()
