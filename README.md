@@ -9,7 +9,7 @@ The marketplace can be used locally through hardhat by with test accounts and de
 1. Clone the project locally and install dependencies
 
 ``` 
-git clone
+git clone https://github.com/Mangr7743/NFT-MarketPlace-App.git
 
 cd nft-marketplace
 
