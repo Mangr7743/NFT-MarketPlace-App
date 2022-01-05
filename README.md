@@ -39,3 +39,6 @@ copy address for 'nftAddress' and 'nftMarketAddress' to /config.js
 ```
 npm run
 ```
+
+Inspired by Nader Dabit dev tutorials dev.to/dabit3
+
