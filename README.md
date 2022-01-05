@@ -4,7 +4,7 @@ This is a simple NFT marketplace built on the Polygon blockchain. This marketpla
 
 The marketplace can be used locally through hardhat by with test accounts and deploying the smart contracts to display the functionality of simple NFT transactions.
 
-** Example Image **
+**Example Image**
 ![image](https://user-images.githubusercontent.com/45516727/148149976-04b6cf06-81b8-4835-87e2-bf02da7ef26d.png)
 
 
